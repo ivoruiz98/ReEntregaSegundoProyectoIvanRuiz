@@ -639,3 +639,19 @@ h3 {
     color: var(--secundario);
     
 }
+
+/* ANIMACION */
+
+@keyframes aparecer{
+  0%{
+      opacity: 0;
+  }
+  100%{
+      opacity: 1;
+  }
+}
+
+.grid_productos {
+  animation-duration: 2s;
+    animation-name: aparecer;
+}

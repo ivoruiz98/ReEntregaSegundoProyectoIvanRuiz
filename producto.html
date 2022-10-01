@@ -11,7 +11,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     
-
 </head>
 <body>
     
@@ -26,19 +25,20 @@
         <a class="navegacion__enlace" href="nosotros.html">Nosotros</a>
         <a class="navegacion__enlace" href="encontranos.html">Encontranos</a>
     </nav>
+<main>
 
-    <main class="contenedor">
+    <div class="container grid_productos">
         <h1>Louis Vuitton Trainer "Black"</h1>
-        
-        <div class="zapatilla">
-            <img class="zapatilla__imagen" src="img/Modelo_1.jpeg" alt="Imagen Del Producto">
-            
-            <div class="zapatilla__contenido">
-                <p>Para su segunda colaboración con el director artístico de Louis Vuitton, Virgil Abloh, la leyenda japonesa del streetwear Nigo reelabora la icónica zapatilla LV Trainer. 
+        <div class="row">
+            <div class="col-md-6 col-sm-12 my-4">
+                <img class="zapatilla__imagen" src="img/Modelo_1.jpeg" alt="Imagen Del Producto">  
+            </div>
+            <div class="col-md-6 col-sm-12 my-4 px-4">
+                <p style="text-align:justify">Para su segunda colaboración con el director artístico de Louis Vuitton, Virgil Abloh, la leyenda japonesa del streetwear Nigo reelabora la icónica zapatilla LV Trainer. 
                     La parte superior de mezclilla Monogram se complementa con un ribete de piel de becerro y está decorada con un parche de goma rojo Louis Vuitton en forma de corazón. 
                     La fusión instintiva de Nigo del dandy británico y la cultura callejera japonesa lo ha establecido como una figura influyente única, en la encrucijada de las bellas artes y la moda.
                 </p>
-
+                
                 <form class="formulario">
                     <select class="formulario__campo">
                         <option disabled selected>-- Seleccionar Talle --</option>
@@ -54,13 +54,11 @@
                     <input class="formulario__campo" type="number" placeholder="Cantidad" min="1">
                     <input class="formulario__submit" type="submit" value="Agregar Al Carrito">
                 </form>
-
+                
             </div>
         </div>
-
-
-
-    </main>
+    </div>
+</main>
 
     <footer class="pie_de_pagina">
         <p class="pie_de_pagina__texto">Foxx Sneakers - Todos los derechos reservados 2022.</p>
