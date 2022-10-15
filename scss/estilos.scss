@@ -426,16 +426,6 @@ h3 {
 }
 
 /** Header **/
-
-/**.header {
-    display: flex;
-    justify-content: left;
-}
-
-.header__logo {
-    margin: 2rem 0;
-}
-**/
 header {
     display: flex;
     justify-content: left;
@@ -446,6 +436,7 @@ header {
 }
 
 /**Pie De Página**/
+
 .pie_de_pagina {
     background-color: var(--primarioOscuro);
     padding: 1rem 0;
@@ -461,30 +452,6 @@ header {
 
 
 /** Navegación**/
-/**
-.navegacion {
-    background-color: var(--primarioOscuro);
-    padding: 1rem 0;
-    display: flex;
-    justify-content: center;
-    gap: 4rem;
-}
-
-.navegacion__enlace {
-    font-family: var(--fuentePrincipal);
-    color: var(--secundario);
-    font-size: 3rem;
-    margin-right: 2rem;
-}
-.navegacion__enlace:last-of-type{
-    margin-right: 0;
-}
-.navegacion__enlace--activo,
-.navegacion__enlace:hover {
-    color: var(--negro);
-
-}
-**/
 .navegacion {
     background-color: var($primarioOscuro);
     padding: 1rem 0;
@@ -534,28 +501,25 @@ header {
     width: 75%;
     animation-duration: 2s;
     animation-name: aparecer;
+    .producto__imagen{
+      width: 100%;
+  }
+      .producto__nombre {
+        font-size: 3rem;
+        font-family: var(--fuentePrincipal);
+        margin: 1rem 0;}
+        .producto__precio{
+          font-size: 2.2rem;
+          color: var(--negro);
+          font-family: var(--fuentePrincipal);
+          margin: 1rem 0;
+          line-height: 1;
+      }
 
 }
 
-.producto__imagen{
-    width: 100%;
-}
 
 
-.producto__nombre {
-    font-size: 3rem;
-    font-family: var(--fuentePrincipal);
-    margin: 1rem 0;
-
-}
-
-.producto__precio{
-    font-size: 2.2rem;
-    color: var(--negro);
-    font-family: var(--fuentePrincipal);
-    margin: 1rem 0;
-    line-height: 1;
-}
 
 /** NOSOTROS **/
 
