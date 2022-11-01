@@ -540,6 +540,7 @@ header {
 
 .nosotros__imagen {
     grid-row: 1 / 2;
+    justify-content: center;
 }
 
 @media (min-width: 768px) {
